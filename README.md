@@ -3,6 +3,7 @@ This document describes the steps to construct the transaction in bitcoin regtes
 The code is fully compatible with the existing bitcoin network. The experiment was carried on window 10 step-by-step as follows.
 
 1.	Installation
+
 •	bitcoin-28.0-win64-setup, https://bitcoincore.org/en/download/
 
 •	bitcoinjs-lib-master https://github.com/bitcoinjs/bitcoinjs-lib
