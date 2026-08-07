@@ -1,4 +1,12 @@
-
+// 1.	Installation
+// •	bitcoin-31.1-win64-setup, https://bitcoincore.org/en/download/
+// •	bitcoinjs-lib-master, https://github.com/bitcoinjs/bitcoinjs-lib
+// •	MS VScode https://visualstudio.microsoft.com/zh-hans/downloads/
+// •	node-v24.18.1-arm64  https://nodejs.org/en/download/package-manager
+// 2.	In command line of OS, run
+//       C:\Program Files\Bitcoin>rmdir /s /q "%APPDATA%\Bitcoin\regtest"
+// C:\Program Files\Bitcoin>bitcoin-qt -regtest -rpcport=9050 -rpcuser=youruser -rpcpassword=yourpass -server=1  -maxtxfee=0.01
+//./bitcoinjs-lib-master> node main.js
 import { BitcoinRPCClient, ECPair, network } from './rpc-client.js';
 import base58check from 'base58check';  
 import * as bitcoin from 'bitcoinjs-lib';
