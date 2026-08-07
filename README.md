@@ -25,10 +25,11 @@ The code is fully compatible with the existing bitcoin network. The experiment w
 	Compile the codes as the original packages do
 
 3.	In command line of Operation System, run
+C:\Program Files\Bitcoin> rmdir /s /q "%APPDATA%\Bitcoin\regtest
    
-bitcoin-qt -regtest -rpcport=9050 -rpcuser=youruser -rpcpassword=yourpass -server=1  -maxtxfee=0.01
+C:\Program Files\Bitcoin> bitcoin-qt -regtest -rpcport=9050 -rpcuser=youruser -rpcpassword=yourpass -server=1  -maxtxfee=0.01
 
-node main.js
+C\...\bitcoinjs-lib-master> node main.js
 
 4 The output transaction is:
 
