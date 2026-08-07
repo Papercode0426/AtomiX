@@ -25,6 +25,7 @@ The code is fully compatible with the existing bitcoin network. The experiment w
 	Compile the codes as the original packages do
 
 3.	In command line of Operation System, run
+   
 bitcoin-qt -regtest -rpcport=9050 -rpcuser=youruser -rpcpassword=yourpass -server=1  -maxtxfee=0.01
 
 node main.js
